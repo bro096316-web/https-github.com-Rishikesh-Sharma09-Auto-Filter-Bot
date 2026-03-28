@@ -72,7 +72,7 @@ DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://ABHI:ABHI@cluster0.h1e
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
-DATABASE_NAME = environ.get('DATABASE_NAME', "ABHI)
+DATABASE_NAME = environ.get('DATABASE_NAME', "ABHI')
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Links
