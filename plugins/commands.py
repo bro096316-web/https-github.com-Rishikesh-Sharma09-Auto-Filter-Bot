@@ -73,7 +73,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('💰 ᴇᴀʀɴ ᴍᴏɴᴇʏ ʙʏ ʙᴏᴛ 💰', callback_data='earn')
                 ],[
-InlineKeyboardButton(' ⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ⌬; callback_data='group')
+InlineKeyboardButton(' ⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ ⌬; callback_data='group')
 InlineKeyboardButton(' ✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇; callback_data='channel')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
